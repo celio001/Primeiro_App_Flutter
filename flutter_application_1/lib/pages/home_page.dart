@@ -40,7 +40,7 @@ class _HomePageState extends State<HomePage> {
           ? ListView.builder(
               itemCount: _list.length,
               itemBuilder: (BuildContext context, int index) {
-                return Card(
+                return Card(// ação do toque do botão
                   child: ListTile(
                     title: Text(_list[index]),
                   ),

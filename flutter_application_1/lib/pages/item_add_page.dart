@@ -11,7 +11,7 @@ class ItemAddPage extends StatelessWidget {
         backgroundColor: Colors.green, // cor do botão
         onPressed: () {
           Navigator.pop(context,
-              _controllerText.text = _controllerText.text.isEmpty ? '': _controllerText.text ); //para ele voltar para a primeira pagina
+              _controllerText.text = _controllerText.text.isEmpty ? '': _controllerText.text ); //Se o valor não estiver vazio ele voltar para a primeira pagina
         },
         child: Icon(Icons.done),
       ),
